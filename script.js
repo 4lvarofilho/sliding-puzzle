@@ -66,8 +66,8 @@ let moveTile = function () {
       movesNum++;
     }
   }
-  verify();
   movescell.innerHTML = movesNum;
+  verify();
 }
 
 function verify() {
